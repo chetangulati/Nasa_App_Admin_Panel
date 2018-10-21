@@ -1,11 +1,6 @@
 from django.db import models
-import json
-import requests
 from  multiselectfield import MultiSelectField
 import requests
-
-# Create your models here.
-# from multiselectfield import MultiSelectField
 
 
 # Create your models here.
@@ -27,44 +22,44 @@ class Items(models.Model):
     class Meta:
         verbose_name_plural= "Items"
 
-    # def save(self, *args, **kwargs):
-    #     data = {
-    #     "item_name":self.item_name,
-    #     "item_wt":self.item_weight,
-    #     "item_desc":self.item_description,
-    #     "item_qty_min":self.item_quantity_min,
-    #     "item_qty_max":self.item_quantity_max,
-    #     "item_exp_date":self.item_expiry_duration
-    #     }
-    #     returnData = requests.post("http://172.22.0.37:3000/admin/item", data = data)
-    #     if returnData.status_code == 200:
-    #         # itemsData = requests.get('http://172.22.0.37:3000/admin/item')
-    #         #             # if itemsData.status_code == 200:
-    #         #             #     r = itemsData.json()
-    #         #             #     for i in range(len(r)):
-    #         #             #         print(r[i]['item_name'])
-    #                 # Items.objects.create(item_name=r[i]['item_name'], item_weight=r[i]['item_wt'], item_description=r[i]['item_desc'], item_quantity_min=r[i]['item_qty_min'], item_quantity_max=r[i]['item_qty_max'], item_expiry_duration=r[i]['item_exp_date'], item_mongo_db_id=r[i]['_id'])
-    #                 # p = Items(item_name=r[i]['item_name'], item_weight=r[i]['item_wt'],
-    #                 #                      item_description=r[i]['item_desc'], item_quantity_min=r[i]['item_qty_min'],
-    #                 #                      item_quantity_max=r[i]['item_qty_max'],
-    #                 #                      item_expiry_duration=r[i]['item_exp_date'], item_mongo_db_id=r[i]['_id'])
-    #         r1 = returnData.json()
-    #         self.item_mongo_db_id = r1['_id']
-    #         super(Items, self).save(*args, **kwargs)
-    #     else:
-    #         print("Errr" + returnData.status_code)
+    def save(self, *args, **kwargs):
+        data = {
+        "item_name":self.item_name,
+        "item_wt":self.item_weight,
+        "item_desc":self.item_description,
+        "item_qty_min":self.item_quantity_min,
+        "item_qty_max":self.item_quantity_max,
+        "item_exp_date":self.item_expiry_duration
+        }
+        returnData = requests.post("http://172.22.0.37:3000/admin/item", data = data)
+        if returnData.status_code == 200:
+            # itemsData = requests.get('http://172.22.0.37:3000/admin/item')
+            #             # if itemsData.status_code == 200:
+            #             #     r = itemsData.json()
+            #             #     for i in range(len(r)):
+            #             #         print(r[i]['item_name'])
+                    # Items.objects.create(item_name=r[i]['item_name'], item_weight=r[i]['item_wt'], item_description=r[i]['item_desc'], item_quantity_min=r[i]['item_qty_min'], item_quantity_max=r[i]['item_qty_max'], item_expiry_duration=r[i]['item_exp_date'], item_mongo_db_id=r[i]['_id'])
+                    # p = Items(item_name=r[i]['it em_name'], item_weight=r[i]['item_wt'],
+                    #                      item_description=r[i]['item_desc'], item_quantity_min=r[i]['item_qty_min'],
+                    #                      item_quantity_max=r[i]['item_qty_max'],
+                    #                      item_expiry_duration=r[i]['item_exp_date'], item_mongo_db_id=r[i]['_id'])
+            r1 = returnData.json()
+            self.item_mongo_db_id = r1['_id']
+            super(Items, self).save(*args, **kwargs)
+        else:
+            print("Errr" + returnData.status_code)
 
 
     def delete(self, *args, **kwargs):
-        super(Items, self).delete(*args, **kwargs)
-        # try:
-        #     returnData = requests.delete("http://172.22.0.37:3000/admin/item/" + str(self.item_mongo_db_id))
-        #     if returnData.status_code == 200:
-        #         super(Items, self).delete(*args, **kwargs)
-        #     else:
-        #         print("Cannot Perform Action")
-        # except:
-        #     print("Error")
+        # super(Items, self).delete(*args, **kwargs)
+        try:
+            returnData = requests.delete("http://172.22.0.37:3000/admin/item/" + str(self.item_mongo_db_id))
+            if returnData.status_code == 200:
+                super(Items, self).delete(*args, **kwargs)
+            else:
+                print("Cannot Perform Action")
+        except:
+            print("Error")
 
 
 
@@ -162,15 +157,15 @@ class Disaster(models.Model):
         #     print("Error Performing action" + str(returnData.status_code))
 
     # to override the delete method
-    def delete(self, *args, **kwargs):
-        try:
-            return_data = requests.delete(url = api_end_point+"/admin/disaster/"+self.disater_mongo_db_id)
-            if return_data.status_code == 200:
-                super(Disaster, self).save(*args, **kwargs)
-            else:
-                print("Not able to perfrom" + str(return_data.status))
-        except:
-            print("Error")
+    # def delete(self, *args, **kwargs):
+    #     try:
+    #         return_data = requests.delete(url = api_end_point+"/admin/disaster/"+self.disater_mongo_db_id)
+    #         if return_data.status_code == 200:
+    #             super(Disaster, self).save(*args, **kwargs)
+    #         else:
+    #             print("Not able to perfrom" + str(return_data.status))
+    #     except:
+    #         print("Error")
 
 class Location(models.Model):
     disasterData = requests.get('http://172.22.0.37:3000/admin/disaster')

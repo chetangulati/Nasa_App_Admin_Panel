@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d00c8de-84d5-4ee3-85fe-23ebdc3e0be7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/nasa_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/nasa_app/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/nasa_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/nasa_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/nasa_app/static/nasa_app/img/Screenshot_17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/nasa_app/static/nasa_app/img/Screenshot_17_1DwBB4q.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/nasa_app/static/nasa_app/img/Screenshot_17_70yMzWc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/nasa_app/static/nasa_app/img/Screenshot_17_9bET7jq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/nasa_app/static/nasa_app/img/Screenshot_17_IIFyzOY.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/nasa_app/static/nasa_app/img/Screenshot_17_KimaPX2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/nasa_app/static/nasa_app/img/Screenshot_17_XNrYkwi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/nasa_app/static/nasa_app/img/Screenshot_17_cdqf0qd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/nasa_app/static/nasa_app/img/Screenshot_17_fcCcS2u.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/nasa_app/static/nasa_app/img/Screenshot_18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/nasa_app/static/nasa_app/img/Screenshot_18_8bQYKQF.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/nasa_app/static/nasa_app/img/Screenshot_18_AxzBhtf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/nasa_app/static/nasa_app/img/Screenshot_18_NZe9GQj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/nasa_app/static/nasa_app/img/Screenshot_18_TaTz8Vu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/nasa_app/static/nasa_app/img/Screenshot_18_bXHrolX.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/nasa_app/static/nasa_app/img/Screenshot_18_o6CZDJH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/nasa_app/static/nasa_app/img/Screenshot_18_wH1czRO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/nasa_app/static/nasa_app/img/Screenshot_18_yhC7Mvo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/nasa_app/static/nasa_app/img/Screenshot_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/nasa_app/static/nasa_app/img/Screenshot_3_sRqR0Jm.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../spiral.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,67 +22,59 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="8" />
+          <entry key="py" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="8" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="13" />
-          <entry key="py" value="2067" />
+          <entry key="py" value="2068" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2080" />
+          <entry key="Python" value="2081" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/mysite/nasa_app/admin.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-                  <folding>
-                    <element signature="e#0#32#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/mysite/nasa_app/models.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="680">
-                  <caret line="40" column="78" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="78" />
-                  <folding>
-                    <element signature="e#0#28#0" expanded="true" />
-                    <marker date="1540090290738" expanded="true" signature="2606:2615" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/nasa_app/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mysite/nasa_app/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="28" selection-start-column="28" selection-end-column="28" />
+              <folding>
+                <marker date="1540112915470" expanded="true" signature="2451:2460" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ImageField</find>
+      <find>disaster</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -119,7 +88,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -186,9 +155,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24330357" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24330357" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3276923" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -255,11 +225,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/nasa_app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="78" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="78" />
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1540090290738" expanded="true" signature="2606:2615" ph="..." />
+            <marker date="1540112915470" expanded="true" signature="2451:2460" ph="..." />
           </folding>
         </state>
       </provider>
